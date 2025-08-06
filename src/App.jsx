@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter basename="/FRONTEND_ECOMMERCE">
+    <BrowserRouter basename="/ECOMMERCE_FRONTEND">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
